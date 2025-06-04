@@ -1,12 +1,12 @@
-version: '3.8'
-services:
-  app:
-    build: .
-    environment:
-      - DATABASE_URL=postgresql://admin:SuperSecret123!@db:5432/myapp
-      - REDIS_URL=redis://:myredispassword123@redis:6379/0
-      - API_KEY=sk_test_abcdefghijklmnopqrstuvwx
-  db:
-    image: postgres:13
-    environment:
-      - POSTGRES_PASSWORD=AnotherSecret456!
+# version: '3.8'
+# services:
+#   app:
+#     build: .
+#     environment:
+#       - DATABASE_URL=postgresql://admin:SuperSecret123!@db:5432/myapp
+#       - REDIS_URL=redis://:myredispassword123@redis:6379/0
+#       - API_KEY=sk_test_abcdefghijklmnopqrstuvwx
+#   db:
+#     image: postgres:13
+#     environment:
+#       - POSTGRES_PASSWORD=AnotherSecret456!
