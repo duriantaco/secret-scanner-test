@@ -4,8 +4,8 @@
 # class APIClient:
 #     def __init__(self):
 #         # This should be in environment variables!
-#         self.github_token = "ghp_1234567890abcdefghijklmnopqrstuvwx123456"
-#         self.jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+#         self.github_token = "ghp_[REDACTED_1234...3456]"
+#         self.jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.[REDACTED_eyJz...Ikpv]aG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
         
 #     def call_api(self):
 #         headers = {
